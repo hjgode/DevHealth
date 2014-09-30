@@ -1,0 +1,113 @@
+<Subsystem Name="Device Monitor">
+  <Group Name="ITCHealth">
+    <Field Name="System\AttachedDevice\OneWire\Count" Type="Integer">0</Field>
+    <Field Name="System\AttachedDevice\OneWire\Asset" Type="String">Str</Field>
+    <Field Name="System\AttachedDevice\OneWire\Charging Time Minutes" Type="Integer">0</Field>
+    <Field Name="System\AttachedDevice\OneWire\ConnectionCount" Type="Integer">0</Field>
+    <Field Name="System\AttachedDevice\OneWire\Extreme Temp Minutes" Type="Integer">0</Field>
+    <Field Name="System\AttachedDevice\OneWire\High Temp Minutes" Type="Integer">0</Field>
+    <Field Name="System\AttachedDevice\OneWire\Identity\Family" Type="Integer">0</Field>
+    <Field Name="System\AttachedDevice\OneWire\Identity\Model" Type="String">Str</Field>
+    <Field Name="System\AttachedDevice\OneWire\Identity\SerialNumber" Type="String">Str</Field>
+    <Field Name="System\AttachedDevice\OneWire\Identity\Type" Type="String">Str</Field>
+    <Field Name="System\AttachedDevice\OneWire\Identity\UniqueId" Type="String">Str</Field>
+    <Field Name="System\AttachedDevice\OneWire\Last Charge" Type="String">Str</Field>
+    <Field Name="System\AttachedDevice\OneWire\Low Temp Time Minutes" Type="Integer">0</Field>
+    <Field Name="System\AttachedDevice\OneWire\Manufactured Date" Type="String">Str</Field>
+    <Field Name="System\AttachedDevice\OneWire\Usage minutes" Type="Integer">0</Field>
+    <Field Name="System\AttachedDevice\USB\Count" Type="Integer">0</Field>
+    <Field Name="System\AttachedDevice\USB\Name" Type="Integer">0</Field>
+    <Field Name="System\AttachedDevice\USB\SerialNum" Type="Stringr">-</Field>
+    <Field Name="System\AttachedDevice\USB\Product" Type="String">Str</Field>
+    <Field Name="System\AttachedDevice\USB\DockCount" Type="Integer">0</Field>
+    <Field Name="System\AttachedDevice\USB\ConnectTime" Type="String">Str</Field>
+    <Field Name="System\AttachedDevice\USB\DisconnectTime" Type="String">Str</Field>
+    <Field Name="System\AttachedDevice\USB\State" Type="String">Str</Field>
+    <Field Name="System\Camera\Enabled" Type="Boolean">true</Field>
+    <Field Name="System\Camera\Present" Type="Boolean">true</Field>
+    <Field Name="System\Drivers\Version" Type="String">Str</Field>
+    <Field Name="System\Drivers\CreationTime" Type="String">Str</Field>
+    <Field Name="System\Drivers\Size" Type="Integer">0</Field>
+    <Field Name="System\GPS\Present" Type="Boolean">true</Field>
+    <Field Name="System\GPS\BreadCrumbing" Type="Boolean">true</Field>
+    <Field Name="System\GPS\TimeStamp" Type="String">Str</Field>
+    <Field Name="System\GPS\SatelliteCnt" Type="Integer">0</Field>
+    <Field Name="System\GPS\SatelliteCntInView" Type="Integer">0</Field>
+    <Field Name="System\GPS\Latitude" Type="Float">0.0</Field>
+    <Field Name="System\GPS\Longitude" Type="Float">0.0</Field>
+    <Field Name="System\GPS\Heading" Type="Float">0.0</Field>
+    <Field Name="System\GPS\Speed" Type="Float">0.0</Field>
+    <Field Name="System\GPS\Elevation" Type="Float">0.0</Field>
+    <Field Name="System\Memory\AvailablePhysical" Type="Integer">0</Field>
+    <Field Name="System\Memory\AvailablePhysicalPercent" Type="Integer">0</Field>
+    <Field Name="System\Memory\TotalPhysical" Type="Integer">0</Field>
+    <Field Name="System\Memory\MemoryLoad" Type="Integer">0</Field>
+    <Field Name="System\ImageUpdatePkgs\GUID" Type="String">Str</Field>
+    <Field Name="System\ImageUpdatePkgs\Version" Type="String">Str</Field>
+    <Field Name="System\Info\CPUActiveTime" Type="String">Str</Field>
+    <Field Name="System\Info\CPUIdleTime" Type="String">Str</Field>
+    <Field Name="System\Info\FirmwareVersion" Type="String">Str</Field>
+    <Field Name="System\Info\HardwareCfgString" Type="String">Str</Field>
+    <Field Name="System\Info\LastBoot" Type="String">Str</Field>
+    <Field Name="System\Info\LastBootTime" Type="String">Str</Field>
+    <Field Name="System\Info\ManufactureDate" Type="String">Str</Field>
+    <Field Name="System\Info\OEMID" Type="String">Str</Field>
+    <Field Name="System\Info\OEMInfo" Type="String">Str</Field>
+    <Field Name="System\Info\OSName" Type="String">Str</Field>
+    <Field Name="System\Info\OSNameAndVersion" Type="String">Str</Field>
+    <Field Name="System\Info\OSVersion" Type="String">Str</Field>
+    <Field Name="System\Info\PageSize" Type="String">Str</Field>
+    <Field Name="System\Info\PlatformManufacturer" Type="String">Str</Field>
+    <Field Name="System\Info\PlatformName" Type="String">Str</Field>
+    <Field Name="System\Info\PlatformType" Type="String">Str</Field>
+    <Field Name="System\Info\Processor\Architecture" Type="String">Str</Field>
+    <Field Name="System\Info\Processor\ProcessCore" Type="String">Str</Field>
+    <Field Name="System\Info\Processor\ProcessorName" Type="String">Str</Field>
+    <Field Name="System\Info\Processor\Vendor" Type="String">Str</Field>
+    <Field Name="System\Info\Processor\Version" Type="String">Str</Field>
+    <Field Name="System\Info\SerialNumber" Type="String">Str</Field>
+    <Field Name="System\Info\ServiceDate" Type="String">Str</Field>
+    <Field Name="System\Info\UniqueId" Type="String">Str</Field>
+    <Field Name="System\Info\UUID" Type="String">Str</Field>
+    <Field Name="System\Info\UpTime" Type="String">Str</Field>
+    <Field Name="System\InstalledCabFiles\Installed" Type="Boolean">true</Field>
+    <Field Name="System\InstalledCabFiles\Count" Type="Integer">0</Field>
+    <Field Name="System\IntermecUpdateVersions\PCGUID" Type="String">Str</Field>
+    <Field Name="System\IntermecUpdateVersions\Version" Type="String">Str</Field>
+    <Field Name="System\Power\ACLineStatus" Type="Integer">0</Field>
+    <Field Name="System\Power\Battery\BackupBatteryFlag" Type="Integer">0</Field>
+    <Field Name="System\Power\Battery\BackupBatteryFullLifeTime" Type="Integer">0</Field>
+    <Field Name="System\Power\Battery\BackupBatteryLifePercent" Type="Integer">0</Field>
+    <Field Name="System\Power\Battery\BackupBatteryLifeTime" Type="Integer">0</Field>
+    <Field Name="System\Power\Battery\BackupBatteryVoltage" Type="Integer">0</Field>
+    <Field Name="System\Power\Battery\BatteryAverageCurrent" Type="Integer">0</Field>
+    <Field Name="System\Power\Battery\BatteryAverageInterval" Type="Integer">0</Field>
+    <Field Name="System\Power\Battery\BatteryCPUUsage" Type="Integer">0</Field>
+    <Field Name="System\Power\Battery\BatteryChemistry" Type="Integer">0</Field>
+    <Field Name="System\Power\Battery\BatteryCurrent" Type="Integer">0</Field>
+    <Field Name="System\Power\Battery\BatteryHealth" Type="Integer">0</Field>
+    <Field Name="System\Power\Battery\BatteryFlag" Type="Integer">0</Field>
+    <Field Name="System\Power\Battery\BatteryFullLifeTime" Type="Integer">0</Field>
+    <Field Name="System\Power\Battery\BatteryIdleTimeout" Type="Integer">0</Field>
+    <Field Name="System\Power\Battery\BatteryLastChanged" Type="String">Str</Field>
+    <Field Name="System\Power\Battery\BatteryLifePercent" Type="Integer">0</Field>
+    <Field Name="System\Power\Battery\BatteryLifeTime" Type="Integer">0</Field>
+    <Field Name="System\Power\Battery\BatteryPrevCPUUsage" Type="Integer">0</Field>
+    <Field Name="System\Power\Battery\BatteryTemperature" Type="Integer">0</Field>
+    <Field Name="System\Power\Battery\BatteryVoltage" Type="Integer">0</Field>
+    <Field Name="System\Power\Battery\BatterymAHourConsumed" Type="Integer">0</Field>
+    <Field Name="System\Power\Battery\ChargingTime" Type="Integer">0</Field>
+    <Field Name="System\Power\Battery\ExtremeTemperatureTime" Type="Integer">0</Field>
+    <Field Name="System\Power\Battery\HighTemperatureTime" Type="Integer">0</Field>
+    <Field Name="System\Power\Battery\LastFullCharge" Type="String">Str</Field>
+    <Field Name="System\Power\Battery\LowTemperatureTime" Type="Integer">0</Field>
+    <Field Name="System\Power\Battery\PartNumber" Type="String">Str</Field>
+    <Field Name="System\Power\Battery\SerialNumber" Type="String">Str</Field>
+    <Field Name="System\Power\Battery\UsageTime" Type="Integer">0</Field>
+    <Field Name="System\RunningProcesses\ProcessId" Type="String">Str</Field>
+    <Field Name="System\RunningProcesses\ThreadCount" Type="Integer">0</Field>
+    <Field Name="System\Storage\PercentUsed" Type="Integer">0</Field>
+    <Field Name="System\Storage\TotalBytes" Type="Integer">0</Field>
+    <Field Name="System\Storage\TotalFreeBytes" Type="Integer">0</Field>
+  </Group>
+</Subsystem>
